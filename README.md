@@ -1,3 +1,6 @@
+# This is a fork of ratiw's vuetable-2. Below is the original readme from ratiw's repository
+----
+
 [![npm](https://img.shields.io/npm/v/vuetable-2/next.svg)](https://www.npmjs.com/package/vuetable-2)
 [![npm](https://img.shields.io/npm/dt/vuetable-2.svg)](https://www.npmjs.com/package/vuetable-2)
 [![npm](https://img.shields.io/npm/l/vuetable-2.svg?maxAge=2592000)](https://github.com/ratiw/vuetable-2/blob/master/LICENSE)
