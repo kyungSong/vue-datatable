@@ -378,8 +378,10 @@ let vm = new Vue({
     rowClassCB (data, index) {
       return (index % 2) === 0 ? 'odd' : 'even'
     },
-    onCellClicked (data, field, event) {
-      console.log('cellClicked', field.name)
+    onCellClicked (props) {
+      let data = props.data;
+      let field = props.field;
+      console.log('cellClicked', field ? field.name : "none", field, data)
       if (field.name !== this.fieldPrefix+'actions') {
         this.$refs.vuetable.toggleDetailRow(data.id)
       }
